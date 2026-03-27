@@ -1,0 +1,80 @@
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    margin: auto; 
+    width: 80%;
+    /* border: solid 3px ; */
+    padding: 50px;
+}
+article{
+    margin: auto;
+    justify-content: center;
+    display: block;
+    /* border: solid 3px red; */
+}
+
+.tags img{
+    width: 100%;
+    height: auto;
+    margin-top: 45px;
+}
+span{
+    font-size: 18px;
+    color: red;
+    
+}
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 32px;
+}
+.bio{
+    font-family: 'Segoe UI', sans-serif; /* Mesma do corpo, para combinar */
+    font-size: 16px;                   /* Menor que o texto (que costuma ser 14px ou 16px) */
+    color: #777;                       /* Um cinza médio para dar contraste suave */
+    font-style: italic;                /* Itálico ajuda a separar o que é legenda do que é conteúdo */
+    text-align: center;                /* Geralmente fica centralizada embaixo da foto */
+    margin-top: 8px;
+
+}
+.para{
+    margin-top: 50px;
+    display: block;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 45px;
+}
+.pra{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+ul{
+    margin-top: 2px;
+}
+.fundo{
+    padding-top: 40px;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+footer{
+    text-align: center;
+    font-size: 16px;
+    margin: 65px;
+}
+.azul{
+    color: blue;
+}
+.laranja{
+    color: orange;
+    padding-bottom: 40px;
+    display: block;
+}
+.rosa{
+    color:blueviolet;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
